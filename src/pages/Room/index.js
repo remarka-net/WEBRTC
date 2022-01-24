@@ -55,7 +55,6 @@ export default function Room() {
               }}
               autoPlay
               playsInline
-              controls
               muted={clientID === LOCAL_VIDEO}
             />
             

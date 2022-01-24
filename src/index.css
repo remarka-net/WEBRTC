@@ -1,32 +1,37 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
-div{
-  height: 100%;
-  width: 100%;
-  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/KRENWURACJHUHH3FMJFRFCL22Y.jpg");
+html{
+  background-image: url("https://images.hdqwalls.com/wallpapers/outer-digital-space-tq.jpg");
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
+  display: block;
   text-align: center;
   font-style: italic;
-  padding-top: 40vh;
+  font-weight: bold;
+  font-size: xxx-large;
+  padding-top: 20vh;
   margin-bottom: 20px;
 }
 
 button{
   display: block;
   margin: 0 auto;
-  font-size: large;
+  font-size: xx-large;
   padding: 10px;
   background-color: gray;
   text-align: center;
   border: solid 2px;
-  border-radius: 10%;
+  border-radius: 15px;
   cursor: pointer;
 }
 
